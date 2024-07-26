@@ -1,8 +1,9 @@
 name: Cypress Tests
 
-schedule:
-  # * is a special character in YAML so you have to quote this string
-  - cron:  '55 16 * * FRI'
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '05 17 * * FRI'
 
 jobs:
   # install:
