@@ -40,10 +40,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Download the build folder
-        uses: actions/download-artifact@v4
-        with:
-          name: build
+      # - name: Download the build folder
+      #   uses: actions/download-artifact@v4
+      #   with:
+      #     name: build
 
       - name: Cypress run
         # Uses the official Cypress GitHub action https://github.com/cypress-io/github-action
